@@ -8,9 +8,9 @@
 
     Private Sub Result_Click(sender As Object, e As EventArgs) Handles Result.Click
         MsgBox("Details " + vbCrLf +
-               "Name: " + vbCrLf + NameBox.Text +
-               "Course: " + vbCrLf + CourseBox.Text +
-               "Semester: " + vbCrLf + SemBox.Text +
+               "Name: " + NameBox.Text + vbCrLf +
+               "Course: " + CourseBox.Text + vbCrLf +
+               "Semester: " + SemBox.Text + vbCrLf +
                "Marks: " + MarksBox.Text)
     End Sub
 

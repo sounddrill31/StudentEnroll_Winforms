@@ -99,6 +99,7 @@ Partial Class Form1
         ' CourseBox
         ' 
         CourseBox.FormattingEnabled = True
+        CourseBox.Items.AddRange(New Object() {"BCA", "BSc", "BBA"})
         CourseBox.Location = New Point(356, 171)
         CourseBox.Name = "CourseBox"
         CourseBox.Size = New Size(236, 23)
@@ -107,6 +108,7 @@ Partial Class Form1
         ' SemBox
         ' 
         SemBox.FormattingEnabled = True
+        SemBox.Items.AddRange(New Object() {"3rd Sem", "4th Sem"})
         SemBox.Location = New Point(356, 215)
         SemBox.Name = "SemBox"
         SemBox.Size = New Size(236, 23)
